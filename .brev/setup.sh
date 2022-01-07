@@ -53,6 +53,9 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 rm get-pip.py
 source $HOME/.poetry/env
+code-server --install-extension ms-python.python
+/usr/bin/python -m pip install -U mypy --user  
+
 
 ##### Golang v16x #####
 # (echo ""; echo "##### Golang v16x #####"; echo "";)
